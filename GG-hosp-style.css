@@ -1,0 +1,494 @@
+.top_header{
+    margin-left:60px;
+    margin-right:60px;
+}
+
+#header_icon{
+    font-size: small;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 241);
+}
+
+#left_header {
+    margin-left: 50px;
+}
+
+#left_header i {
+    margin-left: 10px;
+}
+
+#right_header {
+    margin-right: 50px;
+}
+
+#right_header i {
+    margin-left: 50px;
+}
+
+#gg_icon{
+    padding-top: 1%;
+    height: 50px;
+    width: 12%;
+}
+
+.nav_container {
+    /* position: fixed; */
+    display: flex;
+    margin-left: 60px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: end;
+    color:BLACK;
+    text-decoration: none;  
+    padding: 10px 13px;
+}
+
+.topnav {
+    overflow: hidden;
+    padding-top: 27px;
+    padding-left: 40px;
+}
+.topnav a:hover {
+    color: red;
+    background-color: aliceblue;
+}
+
+.topnav a.active {
+    color: red;
+}
+
+#image {
+    height: auto;
+    width: auto;
+}
+
+.doctor_image {
+    position:relative
+}
+
+.content {
+    position: absolute;
+    top: 170px;
+    left: 120px;
+}
+
+.content h1 {
+    font-size:60px; 
+}
+
+.content h4 {
+    line-height:27px;
+}
+
+.small {
+    background-color:#17C1A3;
+    color: white;
+    font-size: medium;
+    border: #17C1A3;
+    border-radius: 6px;
+    padding: 10px 39px;
+    cursor: pointer;
+}
+#doctors_talk {
+    margin-left: 20px;
+} 
+
+.appointment {
+    position: absolute;
+    top:550px;
+    left:115px;
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.appointment_row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+
+input {
+  width: 30%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.appointment_row select {
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%; 
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+#inputdate {
+    padding: 10px 58px;
+} 
+
+.appointment_row button {
+    width: 30%;
+}
+
+#our_dept {
+    margin-top: 120px;
+}
+
+#dept_row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dept_row1 img {
+    height: 220px;
+    width: 350px;
+}
+
+#dept_row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dept_row2_style {
+    width: 350px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#dept_row3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dept_row3_style {
+    width: 350px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #17C1A3;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+#why_gg {
+    margin-top: 100px;
+    background-color: #E8F9F6;
+    position: relative;
+    margin-left:60px;
+    margin-right:60px;
+}
+
+#why_gg img {
+    width: 720px;
+    height: 500px;
+}
+
+#why_gg_text {
+    position: absolute;
+    left: 62%;
+    top: 20%;
+    line-height: 45px;
+    height: fit-content;
+}
+
+#why_gg_text img {
+    width: 13px;
+    height: 13px;
+}
+
+#specialist {
+    margin-top: 100px;
+    margin-left:60px;
+    margin-right:60px;
+}
+
+.specialist_heading {
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 18px;
+}
+
+#specialist_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+#specialist_img img{
+    width: 250px;
+    height: 300px;
+}
+
+#specialist_name {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.specialist_text {
+    line-height: 12px;
+    width: 250px;
+}
+
+#facilities {
+    margin-top: 80px;
+    margin-left:60px;
+    margin-right:60px;
+}
+
+#facilities h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#facilities_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+#facilities_img img{
+    height: 210px;
+    width: 330px;
+}
+
+#interest {
+    margin-top: 80px;
+    margin-left:60px;
+    margin-right:60px;
+    z-index: 100;
+}
+
+#interest h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#interest_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+#interest_img img {
+    height: 210px;
+    width: 330px;
+}
+
+#interest_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.interest_text_style {
+    width: 330px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.interest_read {
+    color: #17C1A3;
+    text-decoration: underline;
+}
+
+#blue_background {
+    background-color:#EAF2FF;
+    height: 550px;
+    position: relative;
+    margin-top: -220px;
+    z-index: -1;
+}
+
+#newsletter_box {
+    background-color: white;
+    width: 91%;
+    height: 150px;
+    position:absolute;
+    top: 57%;
+    left: 5%;
+}
+
+#newsletter{
+    display: flex;
+    margin-left: 100px;
+    line-height: 30px;
+    margin-top: -150px;
+}
+
+.img_sub_overlap {
+    display: flex;
+}
+
+#newsletter_box img {
+    height: 150px;
+}
+#newsletter_content1 {
+    flex: 1;
+    margin-top: 25px;
+}
+
+#newsletter_content2 {
+    flex: 1;
+    margin-top: 45px;
+}
+
+#newsletter input {
+    font-size: medium;
+    height:40px;
+    width:200px;
+    border-style: none;
+}
+
+#newsletter_content2 hr {
+    width: 380px;
+    margin-left: -10px;
+}
+
+#up_foot {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    margin-left: -20px;
+}
+  
+#up_1 {
+    font-size: smaller;
+    text-align: justify;
+}
+
+#up_1 p{
+    line-height: 20px;
+    font-size: 13px;
+}
+  
+#up_1 img {
+    width: 200px;
+}
+  
+#up2_grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    line-height: 5px;
+}
+  
+.up2_class {
+    text-align: center;
+    padding: 15px;
+    padding-top: 0px;
+    font-size: smaller;
+}
+  
+#up_2 h4 {
+    margin-left: 16px;
+}
+  
+#up3_grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    line-height: 5px;
+}
+  
+.up3_class {
+    padding: 15px;
+    padding-top: 0px;
+    font-size: smaller;
+}
+  
+#up_3 h4 {
+    margin-left: 18px;
+}
+  
+#foot_line {
+    position: relative;
+    z-index: 30;
+    margin-bottom: -60px;
+    margin-top: 30px;
+}
+  
+#foot_hr {
+    width: 90%;
+}
+  
+#down_foot {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 3%;
+    margin-right: 40px;
+    margin-top: 70px;
+    font-size: 11px;
+    margin-top: 80px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+#down_1 {
+    padding-right: 5px;
+    display: flex;
+}
+
+#down_1 p {
+    margin-top: -4px;
+    padding-left: 20px;
+}
+
+#down_2 {
+    display: flex;
+    padding-left: 100px;
+}
+
+#down_2 p {
+    margin-top: -4px;
+    padding-left: 20px;
+}
+
+#down_3 {
+    display: flex;
+    padding-left: 100px;
+}
+
+#down_3 p {
+    margin-top: -4px;
+    padding-left: 20px;
+}
+
+#down_4 {
+    margin-left: 70px;
+    margin-top: -4px;
+}
+
+#down_4 h3 {
+    margin-top: 3px;
+}
+
+#down_4_icon {
+    font-size: medium;
+    margin-top: 10px;
+    padding-left: 20PX;
+}
+
+.foot_icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer_end {
+    text-align: center;
+    font-size: small;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
